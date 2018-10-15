@@ -28,4 +28,5 @@ projeto/
 # IntelliJ files
 .idea/
 .iml
+target/
 
