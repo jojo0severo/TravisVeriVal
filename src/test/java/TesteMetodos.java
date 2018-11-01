@@ -33,31 +33,6 @@ public class TesteMetodos {
     }
 
     @Test
-    public void testeVerificaPrimo(){
-        Integer aux = 25;
-        assertEquals(aux, metodos.verificaprimo(0,100));
-    }
-
-    @Test
-    public void testeCalculaDistancia(){
-        Float aux = 0.0118F;
-
-        String[] coord1 = {
-                String.valueOf(-30.005766),
-                String.valueOf(-51.209765)
-        };
-
-        String[] coord2 = {
-                String.valueOf(-30.016225),
-                String.valueOf(-51.215265)
-        };
-
-        String retorno =  metodos.calculadistancia(coord1, coord2).toString();
-
-        assertEquals(aux.toString(),retorno.substring(0,retorno.indexOf("16")));
-    }
-
-    @Test
     public void testeCalculaDifHorario(){
         String horario1 = "00:13:35:00:00";
         String horario2 = "00:14:30:00:00";
